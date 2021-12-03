@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
+header{
+    display: flex;
+    margin: 0 auto;
+}
+
+/* .container{
+    width: 80%;
+    margin: 0 auto;
+    } */
+
+nav{
+ width: 90%;
+position: absolute;
+/* background: url(Asset 6.png); */
+;
+
+
+} 
+
+nav ul li{
+    /* display: inline-block;
+    width: 10%; */
+    display: inline-block;
+    /* font-size: 20px; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+
+
+nav ul li a{
+
+    text-decoration: none;
+    width: 120px;
+    height: 25px;
+    /* width: 250px;
+    height: 55px; */
+   padding: 35px;
+    font-family: Droid Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 50px;
+    color: white;
+    
+
+
+
+}
+
+nav img{
+   
+    width: 873px;
+    height: 211px;
+    left: 1638px;
+    top: 202px;
+    transform: rotate(-180deg);
+  
+    margin-left: 845px;
+}
+
+
+#login{
+    width: 184px;
+    height: 53px;
+    left: 951px;
+   
+}
+
+#cont{
+    width: 186px;
+    height: 53px;
+    left: 1190px;
+}
+
+#contact{
+    width: 184px;
+    height: 53px;
+    left: 1476px;
+}
+
+.logo{
+position: absolute;
+width: 340px;
+height: 86px;
+left: 57px;
+top: 29px;
+
+}
+
+#logare{
+    position: absolute;
+    width: 185px;
+    height: 53px;
+    left: 897px;
+    top: 37px;
+    
+    background: #272A45;
+    border-radius: 30px;
+}
+
+#creare_cont{
+    position: absolute;
+    width: 186px;
+    height: 53px;
+    left: 1161px;
+    top: 37px;
+    
+    background: #272A45;
+    border-radius: 30px;
+}
+
+#contactli{
+
+    position: absolute;
+    width: 184px;
+    height: 53px;
+    left: 1426px;
+    top: 37px;
+    
+    background: #272A45;
+    border-radius: 30px;
+
+}
+
+
+.sectiune{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+    
+#cutie{
+    
+    /* width: 50%; */
+    justify-content: center;
+    margin-top:10%;
+    
+ }
+
+ #cutie h1{
+    position: absolute;
+    width: 492px;
+    height: 140px;
+    left: 212px;
+    top: 345px;
+    
+    /* font-family: Droid Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #000000;
+ }
+
+ #cutie p{
+    position: absolute;
+    /* width: 422px; */
+    width: 350px;
+    height: 131px;
+    left: 212px;
+    top: 474px;
+    
+    /* font-family: Droid Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+ }
+ 
+
+#cutie2{
+     /* width: 50%; */
+     margin-left: 5%;
+     justify-content: center;
+     margin-top:10%;
+ }
+
+#cutie2 img{
+    position: absolute;
+    width: 550px;
+    height: 535px;
+    left: 1024px;
+    top: 202px;
+ }
+
+ .pozajos{
+    position: absolute;
+    width: 873px;
+    height: 211px;
+    left: 0px;
+    top: 3253px;
+ }
+
+ footer{
+    top: 3396px;
+    
+ }
+
+ .dr1{
+    position: absolute;
+width: 1189px;
+height: 483px;
+left: 175px;
+top: 848px;
+
+
+ }
+
+ .dr2{
+    position: absolute;
+    width: 1211px;
+    height: 489px;
+    left: 241px;
+    top: 907px;
+ }
+
+
+ .dr2 h1{
+    position: absolute;
+    width: 426px;
+    height: 56px;
+    /* left: 633px; */
+    /* top: 995px; */
+    left: 420px;
+    top: 80px;
+    /* font-family: Droid Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #FFFFFF;
+    
+ }
+
+ .dr2 p{
+    position: absolute;
+    width: 531px;
+    height: 70px;
+    /* left: 289px;
+    top: 1136px; */
+    left: 70px;
+    top: 200px;
+    
+    /* font-family: Droid Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #FFFFFF;
+ }
+
+ .dr2 h2{
+    position: absolute;
+    width: 428px;
+    height: 70px;
+    /* left: 920px;
+    top: 1136px; */
+    left: 700px;
+    top: 200px;
+    /* font-family: Droid Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #FFFFFF;
+ }
+
+ .butoanep{
+     position: relative;
+     top: -165px;
+    
+ }
+
+ .butoanep ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .butoanep ul li{
+    display: inline-block;
+    width: 232px;
+    height: 66px;
+    /* top: 1257px; */
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+    border-radius: 30px;
+}
+
+.butoanep ul li a{
+    height: 28px;
+    /* font-family: Droid Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+text-decoration: none;
+    color: #000000;
+}
+
+#predauli{
+    left: 422px;
+}
+
+#predaua{
+width: 78px;
+left: 499px;
+/* top: 1276px; */
+   
+}
+
+#invatli{
+    left: 1021px;
+}
+
+#invata{
+    width: 56px;
+    left: 1105px;
+    /* top: 1277px; */
+}
+
+
+h1{
+    position: absolute;
+width: 515px;
+height: 70px;
+left: 269px;
+top: 1589px;
+
+font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+
+color: #000000;
+}
+/*
+.carusel{
+    width:80%;
+    height:400px;
+    margin: 200px auto;
+    overflow:hidden;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    top:40%;
+    font-size:60px;
+font-weight: bold;
+color:purple;
+left:.5%;
+z-index:1;
+}
+
+span:nth-of-type(2){
+    left:98%;
+    text-align: right;
+}
+section{
+width: 98%;
+height: 300px;
+background: #f4f4f4;
+margin:10px auto;
+display: flex;
+justify-content: left;
+overflow-x: auto;
+}
+
+section::-webkit-scrollbar{
+visibility:hidden;
+
+}
+
+
+div{
+    min-width: 330px;
+    height: 200px;
+    position: relative;
+    left:0;
+    padding-top: 60px;
+    font-size:100px;
+    font-weight: bold;
+    margin:10px 20px;
+    color:white;
+    background: purple;
+    transition:0.5s;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+ .carousel img, svg {
+    vertical-align: middle;
+    margin-left: 30%;
+}
+
+
+
+.carousel{
+    position: relative;
+    margin:0 auto;
+    height: 600px;
+    width: 80%;
+    top: 1700px;
+}
+
+.carousel_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.carousel_track-container{
+    /* background-color: aqua; */
+    padding: 10px;
+    height: 100%;
+    position: relative;
+    overflow:hidden; 
+   
+}
+
+.carousel_track{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+
+.carousel_slide{
+    position: absolute;
+    top:0;
+    bottom: 0;
+width: 100%;
+}
+.carousel_nav{
+    margin-top: -5%;
+    margin-left: 45.5%;
+}
+
+.carousel_button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    background: transparent;
+    border:0;
+}
+
+
+.carousel_button--left{
+    left: -40px;
+}
+
+.carousel_button--right{
+    right: -40px;
+}
+
+.carousel_button img{
+    width: 50px;
+}
+
+
+
+.carousel_indicator{
+    border: 0;
+    border-radius:50%;
+    width: 15px;
+    height: 15px ;
+    background: rgba(0, 0, 0, .3);
+    margin: 0 12px;
+}
+
+.carousel_indicator.current-slide{
+    background: rgba(0, 0, 0,.75);
+} 
+
+
+
+
+h2{
+position: absolute;
+width: 397px;
+height: 66px;
+left: 725px;
+top: 2433px;
+
+/* font-family: Droid Sans; */
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+
+.formular{
+   display: grid;
+   margin-top: 1990px;
+   position: relative;
+   /* direction: flex; */
+   justify-content: center;
+   align-items: center;
+}
+
+.fb{
+    margin-top: 363px;
+    margin-left: 1400px;
+    position: absolute;
+
+
+
+}
+
+
+.insta{
+    
+        margin-top: 360px;
+        margin-left: 1470px;
+        position: absolute;
+}
+
+
+.tww{
+    margin-top: 360px;
+    margin-left: 1543px;
+    position: absolute;
+
+}
+    
+.formular img{
+   margin-left: 17.5%;
+    position: absolute;
+}
+    
+
+textarea{
+
+    background-color: white;
+    
+    color: black;
+}
+
+.formular button{
+    
+position: absolute;
+width: 266px;
+height: 75.67px;
+left: 725px;
+top: 460px;
+
+background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+border-radius: 30px;
+}
+
+
+.formular button a {
+    font-family: Droid Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+color: #000000;
+}
